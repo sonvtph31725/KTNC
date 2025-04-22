@@ -1,0 +1,148 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.container {
+    width: 980px;
+    height: 1000px;
+}
+
+.header {
+    height: 200px;
+}
+
+.header img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.banner {
+    height: 300px;
+}
+
+.banner img {
+    width: 980px;
+    height: 300px;
+    background-color: gray;
+}
+
+.bar {
+    height: 50px;
+    background-color: gray;
+    margin: 5px 0px 5px 0px;
+}
+
+.bar ul li {
+    float: left;
+    display: flex;
+    margin: 0px 10px 0px 10px;
+}
+
+.bar ul li a {
+    color: white;
+    font-weight: bolder;
+    line-height: 50px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.bar ul li a:hover {
+    color: black;
+    background: white;
+}
+
+.findbar input {
+    height: 25px;
+    margin: 10px 0px 10px 0px;
+}
+
+.form {
+    display: flex;
+    float: right;
+    margin: 0px 10px 0px 0px;
+}
+
+button {
+    margin: 10px 0px 10px 10px;
+    color: white;
+    background-color: gray;
+    height: 30px;
+    width: 90px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.products {
+    height: 500px;
+    background-color: azure;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+    margin: 0px 0px 10px 0px;
+}
+
+.products-details {
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+.products-details:hover {
+    background-color: whitesmoke;
+    box-shadow: 5px 5px green;
+    color: black;
+}
+
+.products-details img {
+    width: 80%;
+}
+
+h2 {
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.news {
+    border: 1px solid black;
+    overflow: auto;
+    padding: 20px;
+}
+
+.news img {
+    float: left;
+    margin-right: 20px;
+}
+
+.intro {
+    line-height: 25px;
+}
+
+.title {
+    padding: 20px 0px;
+}
+
+.ten {
+    font-weight: bolder;
+}
+
+.gia {
+    font-weight: bolder;
+    color: red;
+}
+
+.gia del {
+    color: gray;
+    font-weight: lighter;
+}
+
+.footer {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+}

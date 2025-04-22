@@ -1,0 +1,150 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.container {
+    width: 980px;
+    height: 1000px;
+}
+
+.header {
+    height: 100px;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.bar {
+    height: 50px;
+    background-color: gray;
+}
+
+.bar ul li {
+    list-style: none;
+    margin: 0px 10px 0px 10px;
+    float: left;
+    line-height: 50px;
+}
+
+.bar ul li a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.bar ul li a:hover {
+    margin: 0px 15px 0px 15px;
+    color: red;
+}
+
+.form {
+    display: flex;
+    float: right;
+    line-height: 50px;
+    margin-right: 10px;
+}
+
+.findbar input {
+    margin-right: 5px;
+    height: 25px;
+}
+
+button {
+    height: 30px;
+    background-color: red;
+    font-weight: bolder;
+}
+
+.banner {
+    height: 300px;
+    margin: 10px 0px 10px 0px;
+}
+
+.banner img {
+    width: 980px;
+    height: 300px;
+    background-color: black;
+}
+
+.products {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+
+.details {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.details:hover {
+    background-color: goldenrod;
+    box-shadow: 10px 10px green;
+    color: aqua;
+    font-weight: bolder;
+}
+
+.details img {
+    width: 80%;
+}
+
+.ten {
+    font-weight: lighter;
+}
+
+.gia {
+    color: red;
+    font-weight: bolder;
+}
+
+.gia del {
+    color: gray;
+    font-weight: lighter;
+}
+
+h2 {
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+}
+
+.news {
+    overflow: auto;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.news:hover {
+    box-shadow: 10px 10px green;
+}
+
+.news img {
+    float: left;
+}
+
+.title {
+    line-height: 30px;
+}
+
+.intro {
+    line-height: 30px;
+    margin: 30px 0px 0px 20px;
+}
+
+.footer {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+.tt {
+    margin-top: 30px;
+}

@@ -1,0 +1,142 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.container {
+    width: 980px;
+    height: 1000px;
+}
+
+.header {
+    height: 100px;
+}
+
+.header img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.bar {
+    height: 50px;
+    background-color: red;
+    margin: 5px 0px 10px 0px;
+}
+
+.bar ul li {
+    float: left;
+    display: flex;
+    margin: 0px 20px 0px 20px;
+}
+
+.bar ul li a {
+    color: white;
+    font-weight: lighter;
+    line-height: 50px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.bar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.tim-kiem input {
+    height: 30px;
+    margin-top: 10px 0px 10px 0px;
+}
+
+.form {
+    display: flex;
+    float: left;
+}
+
+button {
+    margin: 10px 0px 10px 10px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 90px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.banner {
+    height: 300px;
+}
+
+.banner img {
+    height: 300px;
+    width: 980px;
+    background-color: black;
+}
+
+.san-pham {
+    margin-top: 10px;
+    height: 500px;
+    background-color: darkgray;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2px;
+}
+
+.ctsp {
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.ctsp img {
+    width: 80%;
+}
+
+.ten {
+    font-weight: bolder;
+}
+
+.gia {
+    font-weight: bolder;
+    color: red;
+}
+
+.gia del {
+    font-weight: lighter;
+    color: gray;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+    margin: 10px 0px 10px 0px;
+}
+
+.footer {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+}
+
+.tin-tuc {
+    border: 1px solid red;
+    overflow: auto;
+    padding: 20px;
+}
+
+.tin-tuc img {
+    float: left;
+    margin-right: 20px;
+}
+
+.intro {
+    line-height: 30px;
+}
+
+.title {
+    padding: 20px 0px;
+}
